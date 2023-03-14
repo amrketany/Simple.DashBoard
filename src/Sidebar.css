@@ -1,0 +1,15 @@
+.sidebar {
+ margin: 0;
+ padding: 0;
+ background-color: aliceblue;
+ display: flex;
+ flex-direction: column;
+ height: 100vh;
+}
+
+.sidebar .sec {
+ text-decoration: none;
+ color: rgb(51, 52, 52);
+ cursor: pointer;
+ margin: 10PX 0;
+}
