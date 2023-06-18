@@ -55,7 +55,7 @@ import Swal from 'sweetalert2';
                  <td>{e.price}</td>
                  <td>
                    <button className='btn btn-outline-danger' onClick={() => deletProduct(e)}>Delete</button>
-                   <button className='btn btn-outline-warning'>Edit</button>
+                   <Link to={`/products/edi/id`} className='btn btn-outline-warning'>Edit</Link>
                    <Link to={`/products/${e.id}`} className='btn btn-outline-info'>View</Link>
                  </td>
                </tr>

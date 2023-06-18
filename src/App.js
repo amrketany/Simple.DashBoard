@@ -6,6 +6,7 @@ import Sidebar from './Sidebar';
 import Home from './Home';
 import AddProduct from './AddProduct';
 import ProductDetails from './ProductDetails';
+import AllCategoties from './AllCategoties';
 function App() {
   return (
     <div className="App">
@@ -18,7 +19,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/products" element={<Product />} />
-            <Route path="products/add" element={<AddProduct />} />
+            <Route path="/categories" element={<AllCategoties />} />
+            <Route path="products/add/:id" element={<AddProduct />} />
             <Route path="products/:id" element={<ProductDetails />} />
           </Routes>
         </div>
